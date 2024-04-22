@@ -1,0 +1,16 @@
+.gallery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gallery-carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.gallery-carousel img {
+  max-width: 100%;
+  height: auto;
+}
+
